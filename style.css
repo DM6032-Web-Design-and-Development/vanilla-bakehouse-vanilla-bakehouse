@@ -226,7 +226,7 @@
 }
 .navbar ul a:hover {
   color: brown;
-  text-decoration: underline, bold;
+  text-decoration: underline;
 }
 
 .navbar img {
