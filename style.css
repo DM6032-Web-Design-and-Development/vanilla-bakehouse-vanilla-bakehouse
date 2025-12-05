@@ -227,6 +227,8 @@
 .navbar ul a:hover {
   color: brown;
   text-decoration: underline;
+  font-weight: bold;
+  transition: 0.3s
 }
 
 .navbar img {
