@@ -393,7 +393,9 @@
   }
 }
 /* maryam's CSS */
-
+.contact-page{
+  padding:0px;
+}
 
 p{
   color: #806b63;
