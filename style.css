@@ -303,7 +303,7 @@
   font-family: "Inter", sans-serif;
   background: var(--cream);
   color: var(--brown);
-  margin: 0p-x;
+  margin: 0px;
   padding: 0px;
 }
 
@@ -393,6 +393,8 @@
   }
 }
 /* maryam's CSS */
+
+
 p{
   color: #806b63;
   font-size: 18px;
