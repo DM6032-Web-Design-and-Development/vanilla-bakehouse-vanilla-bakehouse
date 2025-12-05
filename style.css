@@ -227,7 +227,6 @@
 .navbar ul a:hover {
   color: brown;
   text-decoration: underline;
-  font-weight: bold;
   transition: 0.3s
 }
 
@@ -268,6 +267,7 @@
   background: #e8c4c6;
   border: 2px solid #e8c4c6;
   transform: scale(1.1) translate(-50%, -50%);
+  transition:0.3s;
 }
 
 .main-menu {
