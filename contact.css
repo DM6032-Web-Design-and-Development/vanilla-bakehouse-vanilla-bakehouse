@@ -1,5 +1,5 @@
 body{
-  font-family: tahoma;
+  font-family: "Tahoma";
   background-color: #efebe0;
   margin: 0;
   padding: 0px;
@@ -8,34 +8,6 @@ body{
 p{
   color: #806b63;
   font-size: 18px;
-}
-
-.navbar{
-  width: 100%;
-  background: #e8c4c6;
-  display: flex;
-  align-items: center;
-}
-
-.navbar ul{
-  display: flex;
-  flex: 1;
-  list-style-type: none;
-  justify-content: space-around;
-  padding: 0;
-  margin: 0;
-}
-
-.navbar ul a{
-  color: #fff;
-  text-decoration: none;
-}
-
-.navbar img{
-  flex: 1;
-  height: 150px;
-  width: 650px;
-  object-fit: cover;
 }
 
 h1{
