@@ -303,8 +303,8 @@
   font-family: "Inter", sans-serif;
   background: var(--cream);
   color: var(--brown);
-  margin: 0;
-  padding: 0;
+  margin: 0p-x;
+  padding: 0px;
 }
 
 .about-section {
