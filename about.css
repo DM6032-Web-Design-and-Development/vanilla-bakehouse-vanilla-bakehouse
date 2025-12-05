@@ -5,7 +5,7 @@
   --cream: #efebe0;
 }
 
-#aboutus {
+.aboutus {
   font-family: "Inter", sans-serif;
   background: var(--cream);
   color: var(--brown);
