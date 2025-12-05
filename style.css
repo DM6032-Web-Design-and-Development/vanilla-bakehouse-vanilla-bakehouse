@@ -300,7 +300,7 @@
 }
 
 .aboutus {
-  font-family: "Inter", sans-serif;
+  font-family: "Tahoma", sans-serif;
   background: var(--cream);
   color: var(--brown);
   margin: 0px;
@@ -394,6 +394,7 @@
 }
 /* maryam's CSS */
 .contact-page{
+  font-family: "Tahoma", sans-serif;
   padding:0px;
   background: #e8c4c6;
 }
