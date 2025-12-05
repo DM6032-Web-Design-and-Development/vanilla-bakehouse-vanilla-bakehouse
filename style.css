@@ -224,6 +224,10 @@
   color: #fff;
   text-decoration: none;
 }
+.navbar ul a:hover {
+  color: brown;
+  text-decoration: underline, bold;
+}
 
 .navbar img {
   flex: 1;
