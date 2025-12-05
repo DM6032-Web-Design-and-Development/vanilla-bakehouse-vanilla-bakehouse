@@ -267,7 +267,7 @@
 
 .aboutus {
   font-family: "Tahoma", sans-serif;
-  background: var(--cream);
+  background: #f2dfcf;
   color: var(--brown);
   margin: 0px;
   padding: 0px;
@@ -362,7 +362,7 @@
 .contact-page{
   font-family: "Tahoma", sans-serif;
   padding:0px;
-  background: #e8c4c6;
+  background: #f2dfcf;
 }
 
 p{
