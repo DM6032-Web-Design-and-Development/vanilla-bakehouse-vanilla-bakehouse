@@ -431,6 +431,7 @@ button{
 
 button:hover{
   background-color: #e8c4c6;
+  transition:0.3s;
 }
 
 .LocTime{
@@ -489,11 +490,12 @@ button:hover{
   width: 75px;
   height: auto;
   border-radius: 10px;
-  transition: transform 0,2s;
+  transition: transform 0.2s;
 }
 
 .linksbox:hover{
   transform: scale(1.1);
+  transition:0.3s;
 }
 
 .footer {
