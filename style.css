@@ -458,6 +458,8 @@ button:hover{
 
 .locationlink:hover{
   font-size: larger;
+  color: brown;
+  transition:0.3s;
 }
 
 .numberlink{
