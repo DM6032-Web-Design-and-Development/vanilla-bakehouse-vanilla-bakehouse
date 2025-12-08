@@ -245,6 +245,16 @@
   font-size: 45px;
 }
 
+.customerreviews {
+  background-color5: #fff;
+  padding:40px;
+  margin: 60px auto;
+  max-width:900px;
+  border-radius:10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  text-align:center;
+}
+
 
 @media (max-width: 768px) {
   .main-container img {
