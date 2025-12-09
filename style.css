@@ -279,6 +279,27 @@
     height: 450px;
   }
 }
+
+.introduction {
+  background-color: #e8c4c6;
+  padding: 40px;
+  margin: 60px auto;
+  max-width: 900px;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.introduction h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #7a5c50;
+}
+
+.introduction p {
+  color: #885d4e;
+  margin-bottom: 16px;
+}
 /* mohd's CSS */
 :root {
   --pink: #e8c4c6;
