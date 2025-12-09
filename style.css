@@ -255,6 +255,12 @@
   text-align:center;
 }
 
+.introduction h2,
+.customerreviews h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #7a5c50;
+}
 
 @media (max-width: 768px) {
   .main-container img {
