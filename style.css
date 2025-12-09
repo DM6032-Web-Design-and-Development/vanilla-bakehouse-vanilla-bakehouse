@@ -255,11 +255,17 @@
   text-align:center;
 }
 
-.introduction h2,
 .customerreviews h2 {
   font-size: 32px;
   margin-bottom: 20px;
   color: #7a5c50;
+}
+
+.customerreviews p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #885d4e;
+  margin-bottom: 16px;
 }
 
 @media (max-width: 768px) {
