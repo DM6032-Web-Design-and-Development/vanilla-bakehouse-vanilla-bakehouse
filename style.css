@@ -514,6 +514,7 @@ button:hover{
 .numberlink:hover{
   font-size: larger;
   transition:0.3s ease;
+  color:brown;
 }
 
 .cow{
