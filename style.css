@@ -3,10 +3,7 @@
   margin: 0;
   background: #e8c4c6;
   color: #333;
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
+  
 
 }
 
@@ -179,6 +176,10 @@
   background: #e8c4c6;
   display: flex;
   align-items: center;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
 }
 
 .navbar ul {
