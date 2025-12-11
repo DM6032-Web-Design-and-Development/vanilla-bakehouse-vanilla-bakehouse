@@ -244,7 +244,10 @@
   text-align: center;
   font-size: 45px;
 }
-
+.introduction{
+  background-image:url("opaque.png");
+  
+}
 .customerreviews {
   background-color5: #fff;
   padding:40px;
