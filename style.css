@@ -246,7 +246,9 @@
 }
 .backgroond{
   background-image:url("opaque.png");
-  
+  background-size: cover;       
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .customerreviews {
   background: #fff;
