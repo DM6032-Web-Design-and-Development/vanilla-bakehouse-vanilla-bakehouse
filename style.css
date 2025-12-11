@@ -47,6 +47,7 @@
 
 .info-card h3 {
   margin-top: 0;
+  font-family:"Outfit";
 }
 
 
@@ -86,6 +87,7 @@
 
 .item h4 {
   margin: 8px 0; 
+  font-family:"Outfit";
 }
 
 .price {
@@ -144,6 +146,7 @@
 .cart-button button {
   padding: 16px 32px; 
   border: none;
+  font-family:"Outfit";
   background: #b5835a;
   color: white;
   font-size: 18px; 
@@ -168,7 +171,7 @@
 
 .homepage {
   margin: 0;
-  font-family: "Tahoma", sans-serif;
+ font-family:"Outfit";
 }
 
 
@@ -214,6 +217,8 @@
 
 .main-container {
   position: relative;
+  font-family:"Outfit";
+  font-size:3em;
 }
 
 .main-container img {
@@ -235,6 +240,7 @@
 .button-menu a {
   color: #fff;
   text-decoration: none;
+  font-family:"Outfit";
 }
 
 .button-menu:hover {
@@ -270,9 +276,10 @@
 }
 
 .customerreviews h2 {
-  font-size: 32px;
+  font-size: 3em;
   margin-bottom: 20px;
   color: #7a5c50;
+  font-family:"Outfit";
 }
 
 .customerreviews p {
@@ -308,6 +315,7 @@
   font-size: 32px;
   margin-bottom: 20px;
   color: #7a5c50;
+  font-family:"Outfit";
 }
 
 .introduction p {
@@ -323,7 +331,7 @@
 }
 
 .aboutus {
-  font-family: "Tahoma", sans-serif;
+  font-family:"Outfit";
   background: #f2dfcf;
   color: var(--brown);
   margin: 0px;
@@ -372,12 +380,14 @@
   margin: 0;
   color: var(--brown);
   font-weight: 700;
+  font-family:"Outfit";
 }
 
 .feature h3 {
   margin: 5px 0;
   font-size: 20px;
   font-weight: 600;
+  font-family:"Outfit";
 }
 
 .feature p {
@@ -417,7 +427,7 @@
 }
 /* maryam's CSS */
 .contact-page{
-  font-family: "Tahoma", sans-serif;
+  font-family:"Outfit";
   padding:0px;
   background: #f2dfcf;
   margin:0px;
@@ -483,6 +493,7 @@ button{
   cursor: pointer;
   border-radius: 20px;
   font-size: 18px;
+  font-family:"Outfit";
   width: 100%;
 }
 
