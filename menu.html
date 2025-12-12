@@ -21,11 +21,11 @@
       <li><a href="contact.html">Contact Us</a></li>
     </ul>
   </nav>
-<section class="menu-box">
-  
-  <h1>Our Menu</h1>
-  <p>Freshly baked, made with love.</p>
-</section>
+  <div class="main-container">
+<img src="bg1.png" />
+<div class="main-menu">Our Menu</div>
+<div class="main-menu-tag">Freshly baked, made with love</div>
+  </div>
 
 <section class="info-boxes">
   <div class="info-card">
@@ -51,7 +51,7 @@
   <div class="item">
     <img src="donut1.png" alt="Product Image">
     <div class="overlay">
-        <button class="add-to-cart">Add to Cart</button>
+        <button class="add-to-cart" onclick="alert('Item added to cart!')">Add to Cart</button>
     </div>
     <h4>Plain</h4>
     <p class="price">BHD 0.900</p>
@@ -59,6 +59,9 @@
 
   <div class="item">
     <img src="donut2.png" alt="Product Image">
+    <div class="overlay">
+        <button class="add-to-cart" onclick="alert('Item added to cart!')">Add to Cart</button>
+    </div>
     <h4>Vanilla Custard</h4>
     <p class="price">BHD 0.900</p>
   </div>
@@ -674,7 +677,9 @@
   </div>
   </section>
 <div class="cart-button">
-  <button>Your Cart</button>
+  <a href="cart.html">
+  <button type="button">YOUR CART</button>
+</a>
 </div>
     </section>
       </section>
@@ -682,8 +687,9 @@
     </section>
   </section>
   </section>
-</body>
+
   <footer class="footer">
   <p>© 2025 Vanilla Bakehouse</p>
 </footer>
+</body>
 </html>
