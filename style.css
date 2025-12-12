@@ -1,7 +1,35 @@
+@media (max-width: 768px) {
+  .main-container img {
+    height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-container img {
+    height: 250px;
+  }
+}
+
+@media (max-width: 998px) {
+  .about-section {
+    flex-direction: column;
+  }
+
+  .about-left,
+  .about-images {
+    width: 100%;
+  }
+
+  .about-images img {
+    height: 180px;
+  }
+}
+
 #menu {
   
   margin: 0;
-  background: #e8c4c6;
+  /* background: #e8c4c6; */
+  background: #f2dfcf;
   color: #333;
   
 
@@ -13,6 +41,7 @@
   padding: 64px 16px; 
   background: #f2dfcf;
   color: #885d4e;
+  font-family:"Outfit";
 }
 
 .menu-box h1 {
@@ -23,7 +52,7 @@
 
 .menu-box p {
   font-size: 19px; 
-  opacity: 0.7;
+  
 }
 
 
@@ -32,8 +61,12 @@
   justify-content: center;
   gap: 24px;
   margin: 32px auto; 
+  margin-top:0px;
   flex-wrap: wrap;
   color: #885d4e;
+  font-family:"Outfit";
+  background: #e8c4c6;
+  padding: 40px;
 }
 
 .info-card {
@@ -67,10 +100,20 @@
   width: 90%;
   margin: auto;
 }
+.cart-grid {
+  font-family:"Outfit";
+  display: grid;
+  grid-template-columns: auto;
+  gap: 32px; 
+  padding: 32px; 
+  width: 90%;
+  margin: auto;
+}
 
  
 .item {
-  background: #f2dfcf;
+  /* background: #f2dfcf; */
+  background: #fdfdfd;
   border-radius: 10px;
   padding-bottom: 16px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.05);
@@ -86,6 +129,28 @@
   object-fit: cover;
 }
 
+.itemcart {
+  /* background: #f2dfcf; */
+  background: #fdfdfd;
+  border-radius: 10px;
+  padding-bottom: 6px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  text-align: center;
+  color: #885d4e;
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.itemcart img {
+  padding-top: 10px;
+  width: 50%;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+
 .item h4 {
   margin: 8px 0; 
   font-family:"Outfit";
@@ -94,6 +159,7 @@
 .price {
   color: #b5835a;
   font-weight: bold;
+  font-family:"Outfit";
 }
 
 
@@ -161,18 +227,19 @@
 }
 
 .footer {
+  font-family:"Outfit";
   background-color: #E8C4C6;
   color:#806B63;
   text-align: center;
   padding: 20px;
-  margin-top: 50px;
+  
   width: 100%;
 }
 /* Ghadeer and ghalya's CSS */
 
 .homepage {
   margin: 0;
- font-family:"Outfit";
+ 
 }
 
 
@@ -219,11 +286,13 @@
 .main-container {
   position: relative;
   font-family:"Outfit";
-  font-size:3em;
+  font-size:2em;
+  border:solid blue 0px;
 }
 
 .main-container img {
-  height: 1000px;
+  margin-bottom:-10px;
+  height: 400px;
   width: 100%;
   object-fit: cover;
   filter: brightness(0.8);
@@ -231,17 +300,19 @@
 
 .button-menu {
   position: absolute;
-  top: 55%;
+  top: 65%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-55%, -55%);
   border: 2px solid #fff;
-  padding: 10px;
+  border-radius: 40px;
+  padding: 0px 20px 10px 20px;
 }
 
 .button-menu a {
   color: #fff;
   text-decoration: none;
   font-family:"Outfit";
+  font-size: 0.7em;
 }
 
 .button-menu:hover {
@@ -260,16 +331,27 @@
   text-align: center;
   font-size: 45px;
 }
+.main-menu-tag {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  color: #fff;
+  text-align: center;
+  font-size: 1em;
+}
 .backgroond{
   background-image:url("opaque.png");
   background-size: cover;       
   background-repeat: no-repeat;
   background-position: center;
+  padding: 40px;
 }
 .customerreviews {
+  font-family:"Outfit";
   background: #fff;
   padding:40px;
-  margin: 60px auto;
+  margin: 0px auto;
   max-width:900px;
   border-radius:10px;
   box-shadow: 0 6px 15px rgba(0,0,0,0.08);
@@ -277,35 +359,24 @@
 }
 
 .customerreviews h2 {
-  font-size: 3em;
   margin-bottom: 20px;
   color: #7a5c50;
-  font-family:"Outfit";
+  
 }
 
 .customerreviews p {
-  font-size: 17px;
-  line-height: 1.7;
+  font-size: 1em;
   color: #885d4e;
   margin-bottom: 16px;
 }
 
-@media (max-width: 768px) {
-  .main-container img {
-    height: 600px;
-  }
-}
 
-@media (max-width: 480px) {
-  .main-container img {
-    height: 450px;
-  }
-}
 
 .introduction {
+  font-family:"Outfit";
   background-color: #e8c4c6;
   padding: 40px;
-  margin: 60px auto;
+  margin: 0px auto;
   max-width: 900px;
   border-radius: 16px;
   box-shadow: 0 6px 15px rgba(0,0,0,0.08);
@@ -313,7 +384,6 @@
 }
 
 .introduction h2 {
-  font-size: 32px;
   margin-bottom: 20px;
   color: #7a5c50;
   font-family:"Outfit";
@@ -342,7 +412,7 @@
 .about-section {
   max-width: 1300px;
   margin: auto;
-  padding: 80px 40px;
+  padding: 30px 40px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -371,6 +441,7 @@
 }
 
 .features {
+  text-align: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px 30px;
@@ -397,6 +468,7 @@
 }
 
 .about-images {
+  margin-top: 20px;
   width: 40%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -412,20 +484,7 @@
   background: var(--beige);
 }
 
-@media (max-width: 998px) {
-  .about-section {
-    flex-direction: column;
-  }
 
-  .about-left,
-  .about-images {
-    width: 100%;
-  }
-
-  .about-images img {
-    height: 180px;
-  }
-}
 /* maryam's CSS */
 .contact-page{
   font-family:"Outfit";
@@ -440,23 +499,23 @@ p{
 }
 
 h1{
-  color: #806b63;
+  color: #885d4e;
   text-align: center;
   margin-bottom: 30px;
-  font-size: 60px;
+  font-size: 3em;
 }
 
 h2{
   color: #806b63;
   text-align: center;
   margin-bottom: 30px;
-  font-size: 55px;
+  font-size: 2.5em;
 }
 
 .contactform{
   background-color: #efebe0;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 40px auto;
   padding: 30px;
   border-radius: 20px;
   box-shadow: 0 4px 10px #e8c4c699;
@@ -517,6 +576,8 @@ button:hover{
   margin-bottom: 20px;
   box-shadow: 0 2px 50px #e8c4c699;
   text-align: center;
+  min-width: 600px;
+  border: 3px solid #806b63;
 }
 
 .locationlink{
@@ -569,13 +630,4 @@ button:hover{
 .linksbox:hover{
   transform: scale(1.1);
   transition:0.3s;
-}
-
-.footer {
-  background-color: #E8C4C6;
-  color:#806B63;
-  text-align: center;
-  padding: 20px;
-  margin-top: 50px;
-  width:1900px;
 }
