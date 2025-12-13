@@ -312,7 +312,8 @@
 
 .button-menu {
   position: absolute;
-  top: 65%;
+  top: 50%;
+  margin-top: 125px;
   left: 50%;
   transform: translate(-55%, -55%);
   border: 2px solid #fff;
