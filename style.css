@@ -254,7 +254,7 @@
   align-items: center;
   font-family: "Outfit";
   font-optical-sizing: auto;
-  /* font-weight: bold; */
+  font-weight: bold; 
   font-style: normal;
 }
 
