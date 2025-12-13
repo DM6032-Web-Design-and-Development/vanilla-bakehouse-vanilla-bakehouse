@@ -231,7 +231,20 @@
 .cart-button button:hover {
   background: pink;
 }
-
+.pay-button button:hover {
+  background: pink;
+}
+pay-button button {
+  padding: 16px 32px; 
+  border: none;
+  font-family:"Outfit";
+  background: #b5835a;
+  color: white;
+  font-size: 18px; 
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
 .footer {
   font-family:"Outfit";
   background-color: #E8C4C6;
