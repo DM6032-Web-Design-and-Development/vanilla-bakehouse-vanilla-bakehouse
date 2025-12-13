@@ -245,6 +245,17 @@ pay-button button {
   cursor: pointer;
   transition: 0.3s;
 }
+.pay-button {
+  text-align: center;
+  margin: 48px 0; 
+  position: fixed;
+  z-index: 999;
+  justify-content: center;
+  bottom: 20px; 
+  left: 0;
+  right: 0;
+  display: flex; 
+}
 .footer {
   font-family:"Outfit";
   background-color: #E8C4C6;
