@@ -2,10 +2,16 @@
   .main-container img {
     height: 400px;
   }
+  .main-container-home img {
+    height: 400px;
+  }
 }
 
 @media (max-width: 480px) {
   .main-container img {
+    height: 250px;
+  }
+  .main-container-home img {
     height: 250px;
   }
 }
@@ -293,6 +299,14 @@
 .main-container img {
   margin-bottom:-10px;
   height: 400px;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(0.8);
+}
+
+.main-container-home img {
+  margin-bottom:-10px;
+  height: 85vh;
   width: 100%;
   object-fit: cover;
   filter: brightness(0.8);
