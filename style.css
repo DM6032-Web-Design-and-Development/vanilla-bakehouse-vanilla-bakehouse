@@ -234,7 +234,7 @@
 .pay-button button:hover {
   background: pink;
 }
-pay-button button {
+.pay-button button {
   padding: 16px 32px; 
   border: none;
   font-family:"Outfit";
