@@ -247,8 +247,8 @@ pay-button button {
 }
 .pay-button {
   text-align: center;
+  width: auto;
   margin: 48px 0; 
-  position: fixed;
   z-index: 999;
   justify-content: center;
   bottom: 20px; 
