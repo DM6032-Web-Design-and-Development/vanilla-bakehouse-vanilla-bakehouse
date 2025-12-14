@@ -380,7 +380,7 @@
   font-size: 1em;
 }
 .backgroond{
-  background-image:url("opaque.png");
+  background-image:url("bg_center_home.png");
   background-size: cover;       
   background-repeat: no-repeat;
   background-position: center;
@@ -454,7 +454,7 @@
   padding: 30px 40px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   gap: 60px;
 }
 
